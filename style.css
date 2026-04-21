@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* anime grid style */
+.anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 20px 40px;
+}
+
+.anime-card {
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.anime-card:hover {
+    transform: scale(1.05);
+}
+
+.anime-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* Plot Description */
+.plot {
+    padding: 20px 40px;
+    background: #1c1c1c;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+li {
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    margin-top: 30px;
+}
+
+/* Form Style */
+
+#characterForm {
+    width: 300px;         
+    margin: 20px auto;   
+    padding: 20px;
+    border: 1px solid white; 
+    background-color: #222;  
+}
+
+#characterForm input, 
+#characterForm textarea {
+    width: 100%;          
+    margin-bottom: 10px;  
+    display: block;      
+}
+
+#characterForm label {
+    display: block;       
+    margin-bottom: 5px;
+    color: #00aaff;      
+}
+
+#characterForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00aaff;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.info-box {
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border-bottom: 1px dashed #555; /* A simple line between names */
+}
+
+.info-box h3 {
+    color: #00ffea;
+    margin: 0;
+}
+
+#backhome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#backhome button {
+    background: transparent;
+    color: #00aaff;
+    border: 1px solid #00aaff;
+    padding: 10px 20px;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+
+#backhome button:hover {
+    background: #00aaff;
+    color: #111;
+}
